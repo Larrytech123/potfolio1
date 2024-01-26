@@ -1,0 +1,508 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    display:flex;
+     justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+.off-on{
+    display: flex;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+.off-on .checkbox{
+    margin-bottom: 0;
+    width: 30px;
+
+}
+.off-on button{
+    width: 40px;
+    height: 20px;
+}
+body{
+    background-color: white;
+    color: black;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.dark-mode{
+    background-color:black;
+    color: white;
+    
+}
+
+
+  
+ 
+
+  header{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    position: relative;
+    font-size: bold;
+   
+}
+.navbar{
+    display: flex;
+    max-width: 1550px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    font-size: bold;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.ex{
+    margin-bottom: 33px;
+}
+ ul {
+    display: flex;
+    margin-left: 0px;
+}
+ ul li{
+    list-style: none;
+    margin-left: 60px;
+    
+  
+}
+ .navbar ul li a{
+    text-decoration: none;
+  
+    cursor: pointer;
+    font-size: bold;
+    font-size: large;
+    
+    
+    
+}
+ ul li a:hover{
+    text-decoration: underline;
+    transition: all 2s ease-in-out;
+}
+.navbar .toggle-btn{
+    display: none;
+    cursor: pointer;
+    font-size: xx-large;
+    margin-right: 10px;
+    margin-top: 23px;
+}
+
+
+
+
+.dropdown-link{
+    position: absolute;
+    height: 300px;
+    right: 4rem;
+    top: 150px;
+    width: 300px;
+    background-color: hsl(0 0% 100% / 0.1);
+    backdrop-filter:  blur(15px);
+    z-index: 999;
+    overflow: hidden;
+    display: none;
+    background: t;
+    border-radius: 10px;
+    align-items: right;
+    
+} 
+.dropdown-link li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    list-style: none;
+    color: black;
+    font-size: large;
+}
+.dropdown-link li a{
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+    transition: all .7s ease-in-out;
+
+}
+
+
+
+
+
+
+  @media (max-width: 992px){
+    .navbar .list {
+        display: none;
+    }
+    .navbar .toggle-btn{
+        display: block;
+        margin-bottom: 10px;
+
+    }
+    .dropdown-link{
+        display: none;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    
+    main .p1{
+        width: 380px;
+        height: 60px;
+
+    }
+    .abt .resume{
+        width: 450px;
+        justify-content: center;
+        text-align: justify;
+    }
+    main .hello{
+        margin-bottom: 0px;
+        
+    }
+    main h2{
+        margin-top: 0px;
+        margin-bottom: 2px;
+    }
+    main .nameb{
+        width: 400px;
+        font-size: 1px;
+        
+    }
+
+
+    
+}
+
+
+
+
+
+
+.name{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.name span{
+    color: aqua;
+}
+
+header .list a:hover{
+    text-decoration: underline;
+}
+header .list a:active{
+    color: black;
+}
+
+
+main{
+    display:flex;
+    margin-left: 30px;
+    justify-content: space-between;
+   height: 600px;
+    margin-top: 10px;
+}
+
+.first_abt{
+    width: 3px;
+    height: 200px;
+}
+main  h3{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+main .first_abt .p1{
+    width: 600px;   
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.imgp{
+    width: 350px;
+    height: 350px;
+    border-radius: 180px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-right: 200px;
+}
+.imgp:hover{
+    box-shadow: rgb(141, 243, 238) 0px 22px 70px 4px; 
+}
+.my_img{
+    width: 50px;
+    height: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-right: 500px;
+    margin-bottom: 190px;
+}
+main button{
+    border-radius: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 0;
+    background-color: aqua;
+}
+.abt .abt_me{
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+}
+.abt .abt_me span{
+    color: aqua;
+}
+.abt .title{
+    font-size: larger;
+    margin-left: 15px;
+}
+.abt button{
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 0;
+    margin-left: 19px;
+    background-color: aqua;
+}
+
+.resume{
+    width: 1000px;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.my-skill{
+    
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 200px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.my-skill h2{
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+.my-skill h2 span{
+    color: aqua;
+}
+.my-skill h3{
+    justify-content: center;
+    text-align: center;
+  
+}
+.my-skill p{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.my-skill .img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+.my-skill .skill{
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    
+    align-items: center;
+
+}
+.my-skill .skill:hover{
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    
+   
+}
+
+.comp_pro .pro h2{
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 600px;
+}
+.contact  h2{
+   
+    font-size: 50px;
+}
+
+form{
+    justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+input{
+    border-radius: 5px;
+    border-color: rgb(200, 250, 235);
+    background-color: black;
+    width: 300px;
+    height: 30px;
+    color: white;
+    align-items: center;
+    margin-bottom: 40px;
+    
+    
+}
+.buttom1{
+    background-image: url(/image/nysc.JPG);
+    background-repeat: no-repeat;
+    width: 500px ;
+    height: 300px;
+    margin-top: 0;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+   margin-left: 35%;
+   filter: brightness(75%);
+  
+    
+}
+.buttom1:hover{
+    width: 700px;
+    height: 500px;
+    filter: brightness(75%);
+    transition:  .5s ;
+    
+   
+}
+.card{
+    
+    margin-top: 200px;
+    border-radius: 10px;
+    overflow: visible;
+    width: 400px;
+    margin-left: 200px;
+    height: 200px;
+}
+.img1{
+    margin-left: 200px;
+    margin-top: 200px;
+   
+}
+.img1:hover{
+
+    box-shadow: rgb(104, 230, 235)0px 5px 15px;
+    width: 200px;
+    height: 100px;
+}
+ul {
+    display: flex;
+    margin-left: 0px;
+}
+ ul li{
+    list-style: none;
+    margin-left: 60px;
+    
+  
+}
+  ul li a{
+    text-decoration: none;
+    
+    cursor: pointer;
+    font-size: bold;
+    font-size: large;
+    
+    
+    
+}
+ ul li a:hover{
+    text-decoration: underline;
+    transition: all 2s ease-in-out;
+}
+
+
+
+/* The switch - the box around the slider */
+#theme-toggle-button {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 7em;
+    cursor: pointer;
+  }
+  
+  /* Hide default HTML checkbox */
+  #toggle {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  #container,
+  #patches,
+  #stars,
+  #button,
+  #sun,
+  #moon,
+  #cloud {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.25s;
+  }
+  
+  /* night sky background */
+  #toggle:checked + svg #container {
+    fill: #2b4360;
+  }
+  
+  /* move button to right when checked */
+  #toggle:checked + svg #button {
+    transform: translate(28px, 2.333px);
+  }
+  
+  /* show/hide sun and moon based on checkbox state */
+  #sun {
+    opacity: 1;
+  }
+  
+  #toggle:checked + svg #sun {
+    opacity: 0;
+  }
+  
+  #moon {
+    opacity: 0;
+  }
+  
+  #toggle:checked + svg #moon {
+    opacity: 1;
+  }
+  
+  /* show or hide background items on checkbox state */
+  #cloud {
+    opacity: 1;
+  }
+  
+  #toggle:checked + svg #cloud {
+    opacity: 0;
+  }
+  
+  #stars {
+    opacity: 0;
+  }
+  
+  #toggle:checked + svg #stars {
+    opacity: 1;
+  }
+  
+
